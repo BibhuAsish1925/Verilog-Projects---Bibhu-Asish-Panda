@@ -12,8 +12,6 @@
 
 ---
 
-This repository contains Verilog codes for basic digital circuits, useful for both **academic learning** and **interview preparation**.
-
 Welcome to my collection of Digital VLSI (DVLSI) design projects. This repository contains RTL-level designs, testbenches, and simulation setups for various digital systems implemented using Verilog HDL. Each project is organized in its own folder with well-structured source files.
 
 ---
