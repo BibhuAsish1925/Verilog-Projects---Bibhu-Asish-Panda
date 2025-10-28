@@ -18,7 +18,7 @@ Welcome to my collection of Digital VLSI (DVLSI) design projects. This repositor
 
 ## 📁 Project List
 
-### ⚙️ 01. 4-bit ALU  
+## ⚙️ 01. 4-bit ALU  
 A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform multiple arithmetic and logical operations such as addition, subtraction, AND, OR, and shift operations. It also produces essential flags like zero, carry, and overflow. This project demonstrates how digital arithmetic circuits are modeled, tested, and verified using Verilog HDL.
 
 ---
