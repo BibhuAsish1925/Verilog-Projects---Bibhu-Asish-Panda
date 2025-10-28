@@ -18,6 +18,7 @@ Welcome to my collection of Digital VLSI (DVLSI) design projects. This repositor
 
 ## ⚙️ 01. 4-bit ALU  
 A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform basic arithmetic and logic operations. It showcases how combinational and sequential logic can be combined to implement a compact processing block.  
+
 **🔹 Features:**  
 - Performs addition, subtraction, AND, OR, XOR operations.  
 - Generates status flags such as carry, zero, and overflow.  
@@ -26,6 +27,7 @@ A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform basic arithme
 
 ## 🚦 02. Traffic Signal Controller  
 A finite state machine (FSM)-based Verilog project that models a two-way traffic light control system with timing and sensor-based logic.  
+
 **🔹 Features:**  
 - Uses FSM for smooth light transition between main and side roads.  
 - Includes sensor input for real-time vehicle detection.  
@@ -34,6 +36,7 @@ A finite state machine (FSM)-based Verilog project that models a two-way traffic
 
 ## 🥤 03. Vending Machine Controller  
 A simple coin-operated vending machine implemented using Verilog FSM. It handles the acceptance of ₹5 and ₹10 coins and dispenses an item worth ₹15.  
+
 **🔹 Features:**  
 - Detects and accumulates coin input values.  
 - Dispenses the product when total equals ₹15.  
@@ -42,6 +45,7 @@ A simple coin-operated vending machine implemented using Verilog FSM. It handles
 
 ## 🔐 04. Digital Lock System  
 An electronic combination lock system designed in Verilog that unlocks only upon entering the correct binary sequence “01011”.  
+
 **🔹 Features:**  
 - Uses sequential logic to detect correct input sequence.  
 - Reset functionality to return to initial locked state.  
@@ -50,6 +54,7 @@ An electronic combination lock system designed in Verilog that unlocks only upon
 
 ## 🚉 05. Automated Railway Signalling System  
 A railway signal automation system implemented using a finite state machine (FSM) that ensures safe train movement along a single track.  
+
 **🔹 Features:**  
 - Controls four signal lights: Red, Yellow, Double Yellow, and Green.  
 - Detects train presence using sensor input (`x`).  
@@ -58,6 +63,7 @@ A railway signal automation system implemented using a finite state machine (FSM
 
 ## 👶 06. Baby Monitoring System  
 A Verilog-based baby monitoring system that triggers an alarm upon detecting irregular behavior such as movement or sound.  
+
 **🔹 Features:**  
 - Detects simulated sound/motion input signals.  
 - Generates an alarm output for abnormal activity.  
@@ -66,6 +72,7 @@ A Verilog-based baby monitoring system that triggers an alarm upon detecting irr
 
 ## ➕ 07. Ripple Carry Adder (2-Stage)  
 A 2-stage ripple carry adder constructed using full adders connected in cascade to perform binary addition.  
+
 **🔹 Features:**  
 - Adds two 4-bit binary numbers sequentially.  
 - Uses two-stage carry propagation for timing improvement.  
@@ -74,6 +81,7 @@ A 2-stage ripple carry adder constructed using full adders connected in cascade 
 
 ## 🔄 08. I2C Master & Slave  
 A complete I2C communication model in Verilog with both master and slave modules for bidirectional serial data exchange.  
+
 **🔹 Features:**  
 - Handles start, stop, and acknowledge conditions.  
 - Supports byte-level read/write data transfer.  
@@ -82,6 +90,7 @@ A complete I2C communication model in Verilog with both master and slave modules
 
 ## 🔁 09. SPI Master-Slave  
 Serial Peripheral Interface (SPI) protocol design featuring master and slave Verilog modules that exchange data over synchronous serial lines.  
+
 **🔹 Features:**  
 - Supports full-duplex data transmission.  
 - Configurable CPOL and CPHA communication modes.  
@@ -90,6 +99,7 @@ Serial Peripheral Interface (SPI) protocol design featuring master and slave Ver
 
 ## 📦 10. Synchronous FIFO Buffer  
 A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
+
 **🔹 Features:**  
 - Parameterized depth and width configuration.  
 - Generates **Full** and **Empty** status flags.  
@@ -98,6 +108,7 @@ A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily s
 
 ## 🧾 11. 4x4 RAM
 A small 4×4 synchronous RAM module implemented in Verilog for storing and retrieving 4-bit words across four addresses.
+
 **🔹 Features:**
 - 4 locations × 4-bit width memory array.
 - Synchronous read/write operations with clocked write enable.
@@ -106,6 +117,7 @@ A small 4×4 synchronous RAM module implemented in Verilog for storing and retri
 
 ## 📚 12. 4x4 ROM
 A 4×4 read-only memory (ROM) implemented in Verilog for storing fixed data/lookup tables used by digital logic designs.
+
 **🔹 Features:**
 - 4 words × 4-bit constant data storage.
 - Combinational read access (no writes) suitable for lookup tables.
@@ -114,6 +126,7 @@ A 4×4 read-only memory (ROM) implemented in Verilog for storing fixed data/look
 
 ## 🧩 13. 1-bit SRAM
 A minimal 1-bit static RAM cell and test harness implemented in Verilog, demonstrating basic static memory cell behavior.
+
 **🔹 Features:**
 - Single-bit storage element with read/write control.
 - Implements write enable and stable retention while powered.
