@@ -15,38 +15,107 @@ Welcome to my collection of Digital VLSI (DVLSI) design projects. This repositor
 ---
 ---
 
-## 📁 Project List
+## 💡 Project List
 
-## ⚙️ 01. 4-bit ALU  
-A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform multiple arithmetic and logical operations such as addition, subtraction, AND, OR, and shift operations. It also produces essential flags like zero, carry, and overflow. This project demonstrates how digital arithmetic circuits are modeled, tested, and verified using Verilog HDL.
+---
 
-## 🚦 02. Traffic Signal Controller  
-A finite state machine (FSM)-based Verilog design that controls a two-way traffic junction. The controller assigns green signals to the main road by default and switches to the side road when the vehicle sensor detects traffic. Once the side road is clear, the system returns to the main road. This project models real-world traffic logic through sequential state transitions.
+### ⚙️ 01. 4-bit ALU  
+A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform basic arithmetic and logic operations. It showcases how combinational and sequential logic can be combined to implement a compact processing block.  
+**🔹 Features:**  
+- Performs addition, subtraction, AND, OR, XOR operations.  
+- Generates status flags such as carry, zero, and overflow.  
+- Modular design, reusable in larger processor architectures.  
+- Demonstrates gate-level and behavioral modeling in Verilog.
 
-## 🥤 03. Vending Machine Controller  
-A coin-operated vending machine controller implemented using a state machine in Verilog. It accepts ₹5 and ₹10 coins, and when the total reaches ₹15, it dispenses a product (like a can of Coke). The design does not return change, showcasing how transaction logic and sequence control can be realized in digital circuits.
+---
 
-## 🔐 04. Digital Lock System  
-An electronic combination lock built using Verilog HDL. The lock opens only when the correct sequence **01011** is entered through two input buttons (0 and 1). Any wrong input resets the sequence, and a reset button brings the system back to its initial locked state. This circuit models digital authentication and sequential verification logic.
+### 🚦 02. Traffic Signal Controller  
+A finite state machine (FSM)-based Verilog project that models a two-way traffic light control system with timing and sensor-based logic.  
+**🔹 Features:**  
+- Uses FSM for smooth light transition between main and side roads.  
+- Includes sensor input for real-time vehicle detection.  
+- Automatically prioritizes main road when side road is empty.  
+- Provides safe and continuous traffic flow through controlled sequencing.
 
-## 🚉 05. Automated Railway Signalling System  
-A railway signal control system designed using a finite state machine. It manages four sequential signals (A, B, C, D) for trains passing along a single track. The module transitions through red, yellow, double-yellow, and green based on the presence of a train, ensuring safe railway operation. Inputs include a train detection sensor and reset/clock signals.
+---
 
-## 👶 06. Baby Monitoring System  
-A baby monitoring circuit built in Verilog that simulates basic monitoring features like movement, sound, or temperature detection. When unusual activity is sensed, it triggers an alarm signal. This project demonstrates how sensor-driven safety systems can be modeled digitally using behavioral and structural Verilog.
+### 🥤 03. Vending Machine Controller  
+A simple coin-operated vending machine implemented using Verilog FSM. It handles the acceptance of ₹5 and ₹10 coins and dispenses an item worth ₹15.  
+**🔹 Features:**  
+- Detects and accumulates coin input values.  
+- Dispenses the product when total equals ₹15.  
+- Ignores additional inputs once item is dispensed.  
+- Models real-world transaction logic using state transitions.
 
-## ➕ 07. Ripple Carry Adder (2-Stage)  
-A 2-stage ripple-carry adder implemented in Verilog. It performs binary addition by cascading full adders where each stage’s carry ripples to the next. The project helps understand delay propagation, hierarchical design, and modular arithmetic circuit construction using Verilog.
+---
 
-## 🔄 08. I2C Master & Slave  
-Complete I2C communication system with both master and slave modules written in Verilog. It handles start/stop conditions, ACK/NACK generation, and bidirectional data transfer. This project simulates serial communication between two devices using I2C protocol logic implemented at the register-transfer level.
+### 🔐 04. Digital Lock System  
+An electronic combination lock system designed in Verilog that unlocks only upon entering the correct binary sequence “01011”.  
+**🔹 Features:**  
+- Uses sequential logic to detect correct input sequence.  
+- Reset functionality to return to initial locked state.  
+- Rejects incorrect input and restarts automatically.  
+- Demonstrates digital security logic through FSM design.
 
-## 🔁 09. SPI Master-Slave  
-Verilog implementation of the Serial Peripheral Interface (SPI) protocol supporting full-duplex communication between master and slave devices. The design includes chip-select control, clock polarity/phase (CPOL/CPHA) handling, and multi-byte data exchange. It models realistic embedded SPI bus timing and signal interactions.
+---
 
-## 📦 10. Synchronous FIFO Buffer  
-A Synchronous FIFO (First-In-First-Out) buffer designed using Verilog HDL. It manages data storage and retrieval using read/write pointers, along with full and empty flag generation. The design synchronizes all operations to a single clock domain, ensuring reliable and ordered data transfer between two digital systems.
+### 🚉 05. Automated Railway Signalling System  
+A railway signal automation system implemented using a finite state machine (FSM) that ensures safe train movement along a single track.  
+**🔹 Features:**  
+- Controls four signal lights: Red, Yellow, Double Yellow, and Green.  
+- Detects train presence using sensor input (`x`).  
+- Incorporates timed state transitions for real-world accuracy.  
+- Prevents signal conflicts to maintain train safety.
 
+---
+
+### 👶 06. Baby Monitoring System  
+A Verilog-based baby monitoring system that triggers an alarm upon detecting irregular behavior such as movement or sound.  
+**🔹 Features:**  
+- Detects simulated sound/motion input signals.  
+- Generates an alarm output for abnormal activity.  
+- Includes reset and status indication logic.  
+- Demonstrates event-driven monitoring logic in hardware form.
+
+---
+
+### ➕ 07. Ripple Carry Adder (2-Stage)  
+A 2-stage ripple carry adder constructed using full adders connected in cascade to perform binary addition.  
+**🔹 Features:**  
+- Adds two 4-bit binary numbers sequentially.  
+- Uses two-stage carry propagation for timing improvement.  
+- Highlights carry ripple delay and propagation behavior.  
+- Ideal example of hierarchical arithmetic circuit design.
+
+---
+
+### 🔄 08. I2C Master & Slave  
+A complete I2C communication model in Verilog with both master and slave modules for bidirectional serial data exchange.  
+**🔹 Features:**  
+- Handles start, stop, and acknowledge conditions.  
+- Supports byte-level read/write data transfer.  
+- Implements clock stretching and synchronization.  
+- Demonstrates serial communication between digital devices.
+
+---
+
+### 🔁 09. SPI Master-Slave  
+Serial Peripheral Interface (SPI) protocol design featuring master and slave Verilog modules that exchange data over synchronous serial lines.  
+**🔹 Features:**  
+- Supports full-duplex data transmission.  
+- Configurable CPOL and CPHA communication modes.  
+- Includes chip select (SS) control and multiple-byte transfer.  
+- Simulates realistic SPI timing and synchronization behavior.
+
+---
+
+### 📦 10. Synchronous FIFO Buffer  
+A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
+**🔹 Features:**  
+- Parameterized depth and width configuration.  
+- Generates **Full** and **Empty** status flags.  
+- Implements pointer-based read/write management.  
+- Ensures ordered and synchronized data flow between modules.
 
 ---
 ---
