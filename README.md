@@ -96,6 +96,30 @@ A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily s
 - Implements pointer-based read/write management.  
 - Ensures ordered and synchronized data flow between modules.
 
+## 🧾 11. 4x4 RAM
+A small 4×4 synchronous RAM module implemented in Verilog for storing and retrieving 4-bit words across four addresses.
+**🔹 Features:**
+- 4 locations × 4-bit width memory array.
+- Synchronous read/write operations with clocked write enable.
+- Addressable read and write ports with data input/output.
+- Demonstrates basic on-chip memory behavior and pointer addressing.
+
+## 📚 12. 4x4 ROM
+A 4×4 read-only memory (ROM) implemented in Verilog for storing fixed data/lookup tables used by digital logic designs.
+**🔹 Features:**
+- 4 words × 4-bit constant data storage.
+- Combinational read access (no writes) suitable for lookup tables.
+- Pre-initialized contents (hardcoded in RTL) for deterministic outputs.
+- Useful for microcode, LUTs, and small constant storage demonstrations.
+
+## 🧩 13. 1-bit SRAM
+A minimal 1-bit static RAM cell and test harness implemented in Verilog, demonstrating basic static memory cell behavior.
+**🔹 Features:**
+- Single-bit storage element with read/write control.
+- Implements write enable and stable retention while powered.
+- Demonstrates bitcell behavior, storage stability, and basic timing.
+- Useful as a building block for larger SRAM arrays.
+
 ---
 ---
 
