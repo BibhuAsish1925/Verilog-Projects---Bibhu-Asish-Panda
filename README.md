@@ -16,14 +16,12 @@ Welcome to my collection of Digital VLSI (DVLSI) design projects. This repositor
 
 ---
 
-## 📁 Project List
+### 📁 Project List
 
 ## ⚙️ 01. 4-bit ALU  
 A 4-bit Arithmetic Logic Unit (ALU) designed in Verilog to perform multiple arithmetic and logical operations such as addition, subtraction, AND, OR, and shift operations. It also produces essential flags like zero, carry, and overflow. This project demonstrates how digital arithmetic circuits are modeled, tested, and verified using Verilog HDL.
 
----
-
-### 🚦 02. Traffic Signal Controller  
+## 🚦 02. Traffic Signal Controller  
 A finite state machine (FSM)-based Verilog design that controls a two-way traffic junction. The controller assigns green signals to the main road by default and switches to the side road when the vehicle sensor detects traffic. Once the side road is clear, the system returns to the main road. This project models real-world traffic logic through sequential state transitions.
 
 ---
