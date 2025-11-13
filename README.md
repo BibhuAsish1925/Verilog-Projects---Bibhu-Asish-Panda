@@ -176,5 +176,5 @@ These projects were created as part of the DVLSI coursework and personal practic
 ---
 
 ## 🤝 Connect with Me
-- 📧 Email: [bibhuap1925@gmail.com]
+- 📧 Email: [bibhuap2003@gmail.com]
 - 🔗 LinkedIn: [www.linkedin.com/in/bibhu-asish-panda-05332b288]
