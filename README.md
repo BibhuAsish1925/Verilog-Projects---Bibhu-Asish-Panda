@@ -159,6 +159,7 @@ Each project folder contains:
 - `design.v` – The Verilog RTL code
 - `tb.v` – The testbench to verify the design
 - waveform outputs, schematic diagram
+- Explanation (written notes)
 
 ---
 
