@@ -97,14 +97,14 @@ Serial Peripheral Interface (SPI) protocol design featuring master and slave Ver
 - Includes chip select (SS) control and multiple-byte transfer.  
 - Simulates realistic SPI timing and synchronization behavior.
 
-## 📦 10. Synchronous FIFO Buffer  
-A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
+## 🛰️ 10. UART Transmitter & Receiver
+A Verilog-based UART (Universal Asynchronous Receiver/Transmitter) circuit that serializes and deserializes 8-bit data for asynchronous serial communication between digital systems.
 
-**🔹 Features:**  
-- Parameterized depth and width configuration.  
-- Generates **Full** and **Empty** status flags.  
-- Implements pointer-based read/write management.  
-- Ensures ordered and synchronized data flow between modules.
+**🔹 Features:**
+- Transmitter sends 8-bit data with start and stop bits in 8-N-1 format.
+- Receiver detects start bit and reconstructs byte bit-by-bit from serial input.
+- Operates synchronously to a single clock (1 clock = 1 UART bit time).
+- Demonstrates complete serial communication concept using Verilog HDL.
 
 ## 🧾 11. 4x4 RAM
 A small 4×4 synchronous RAM module implemented in Verilog for storing and retrieving 4-bit words across four addresses.
@@ -132,6 +132,23 @@ A minimal 1-bit static RAM cell and test harness implemented in Verilog, demonst
 - Implements write enable and stable retention while powered.
 - Demonstrates bitcell behavior, storage stability, and basic timing.
 - Useful as a building block for larger SRAM arrays.
+
+## 🔄 14. Barrel Shifter
+A combinational logic circuit designed in Verilog that performs fast multi-bit left or right shifts and rotations in a single clock cycle.
+**🔹 Features:**
+- Shifts or rotates data left/right by a specified number of bits.
+- Uses multiplexers for parallel bit movement without sequential delay.
+- Parameterized design for configurable word size.
+- Demonstrates efficient data manipulation logic in digital circuits.
+
+## 📦 15. Synchronous FIFO Buffer  
+A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
+
+**🔹 Features:**  
+- Parameterized depth and width configuration.  
+- Generates **Full** and **Empty** status flags.  
+- Implements pointer-based read/write management.  
+- Ensures ordered and synchronized data flow between modules.
 
 ---
 ---
