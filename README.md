@@ -141,7 +141,16 @@ A combinational logic circuit designed in Verilog that performs fast multi-bit l
 - Parameterized design for configurable word size.
 - Demonstrates efficient data manipulation logic in digital circuits.
 
-## 📦 15. Synchronous FIFO Buffer  
+## 🗳️ 15. Electronic Voting Machine (10-Candidate)
+A Verilog-based digital voting machine that allows voting among 10 candidates and securely counts each vote using synchronous logic.
+
+**🔹 Features:**
+- Supports voting input for 10 individual candidates.
+- Stores and updates vote counts using sequential logic.
+- Includes reset, validity check, and final result generation.
+- Demonstrates real-world digital tallying and control system design.
+
+## 📦 16. Synchronous FIFO Buffer  
 A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
 
 **🔹 Features:**  
