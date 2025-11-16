@@ -30,7 +30,6 @@ Each project folder contains:
 - Git & GitHub for version control
 
 ---
----
 
 ## 💡 Project List
 
