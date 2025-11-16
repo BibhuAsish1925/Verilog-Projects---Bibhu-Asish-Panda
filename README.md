@@ -14,6 +14,24 @@ Welcome to my collection of Digital VLSI (DVLSI) design projects. This repositor
 
 ---
 
+## 📂 Folder Structure
+
+Each project folder contains:
+- `design.v` – The Verilog RTL code
+- `tb.v` – The testbench to verify the design
+- waveform outputs, schematic diagram
+- Explanation (written notes)
+
+---
+
+## 🛠 Tools Used
+- Verilog HDL
+- EDA playground / Vivado / Xilinx
+- Git & GitHub for version control
+
+---
+---
+
 ## 💡 Project List
 
 ## ⚙️ 01. 4-bit ALU  
@@ -158,24 +176,6 @@ A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily s
 - Generates **Full** and **Empty** status flags.  
 - Implements pointer-based read/write management.  
 - Ensures ordered and synchronized data flow between modules.
-
----
----
-
-## 📂 Folder Structure
-
-Each project folder contains:
-- `design.v` – The Verilog RTL code
-- `tb.v` – The testbench to verify the design
-- waveform outputs, schematic diagram
-- Explanation (written notes)
-
----
-
-## 🛠 Tools Used
-- Verilog HDL
-- EDA playground / Vivado
-- Git & GitHub for version control
 
 ---
 
