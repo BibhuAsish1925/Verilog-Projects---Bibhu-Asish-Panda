@@ -167,7 +167,17 @@ A Verilog-based digital voting machine that allows voting among 10 candidates an
 - Includes reset, validity check, and final result generation.
 - Demonstrates real-world digital tallying and control system design.
 
-## 🧮 16. Parameterizable Synchronous Memory (Single-Port RAM)
+## 🧠 16. Dual-Port RAM (4×4) with Collision Detection
+A Verilog-implemented true dual-port RAM where Ports A and B can simultaneously read/write independent memory addresses.
+
+**🔹 Features:**
+- Two fully independent ports — each with separate address, R/W control, data-in, and data-out.
+- Concurrent operations: both ports can read or write the RAM in the same cycle.
+- Collision detection flag asserts when both ports write to the same address at the same clock edge.
+- Read operations provide the stored 4-bit word; write operations update memory synchronously.
+- Demonstrates multi-port memory design, data integrity management, and hazard handling in digital systems.
+
+## 🧮 17. Parameterizable Synchronous Memory (Single-Port RAM)
 A Verilog-based single-port RAM with fully parameterizable Depth and Data Width, designed for synchronous read/write memory operations.
 
 **🔹 Features:**
@@ -177,16 +187,6 @@ A Verilog-based single-port RAM with fully parameterizable Depth and Data Width,
 - Ready signal acknowledges every valid transaction in the same cycle.
 - Memory initialized to zero on reset for deterministic behavior.
 - Useful for building CPUs, buffers, lookup tables, and parameterized FPGA memory blocks.
-
-## 🧠 17. Dual-Port RAM (4×4) with Collision Detection
-A Verilog-implemented true dual-port RAM where Ports A and B can simultaneously read/write independent memory addresses.
-
-**🔹 Features:**
-- Two fully independent ports — each with separate address, R/W control, data-in, and data-out.
-- Concurrent operations: both ports can read or write the RAM in the same cycle.
-- Collision detection flag asserts when both ports write to the same address at the same clock edge.
-- Read operations provide the stored 4-bit word; write operations update memory synchronously.
-- Demonstrates multi-port memory design, data integrity management, and hazard handling in digital systems.
 
 ## 📦 18. Synchronous FIFO Buffer  
 A Verilog-based First-In-First-Out (FIFO) memory structure used to temporarily store data between producer and consumer systems operating under the same clock domain.  
